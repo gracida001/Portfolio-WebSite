@@ -1,0 +1,40 @@
+.CoverImage {
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 1;
+    width: 100%; /* for IE 6 */
+    background-image: url("../image/img_57a0010d27c7f.png");
+}
+
+.TextCover {
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    position: absolute;
+    top: 25%;
+    width: 300px;
+    left: calc(50% - 150px);
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.TextDescribe {
+    color: black;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 26px;
+}
+
+.Linea {
+    margin-top: 30px;
+    height: 20px;
+    background-color: #ef5350;
+}

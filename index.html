@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <!-- Meta tag -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
+    <!-- Title -->
+    <title>Name Surname</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+
+<body class="grey lighten-3">
+
+
+    <!-- Contact button -->
+    <div class="fixed-action-btn modal-trigger" href="#modal1">
+        <a class="btn-floating btn-large pulse teal lighten-1">
+            <i class="large material-icons">mode_edit</i>
+        </a>
+    </div>
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer">
+        <div class="modal-content" style="overflow-x: hidden">
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12 ">
+                                    <i class="material-icons prefix">mode_edit</i>
+                                    <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                                    <label for="icon_prefix2">Message</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal-footer" style="overflow-x: hidden; ">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Exit</a>
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat pulse teal lighten-1"
+                style="margin-right: 12px;">Submit</a>
+        </div>
+    </div>
+
+
+    <div class="navbar-fixed red lighten-1">
+        <nav>
+            <div class="nav-wrapper red lighten-1">
+
+                <!-- Logo -->
+                <a href="#introduction" class="center brand-logo" id="elementoTitle">Name Surname</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#introduction">Chi sono</a></li>
+                    <li><a href="#structure">Portfolio</a></li>
+                </ul>
+                <!-- Trigger for mobile and icons -->
+                <a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i
+                        class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>
+    <!-- Mobile version-->
+    <ul class="sidenav " id="mobile-demo">
+        <li><a href="#introduction">Chi sono</a></li>
+
+        <li><a href="#structure">Portfolio</a></li>
+    </ul>
+
+    <div class="CoverImage">
+        <span class="TextCover">"Everything is designed. Few things are designed well." -- Brian Reed, front-end
+            developer and musician!</span>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col s12 m9 l12">
+            <div id="introduction" class="section scrollspy">
+                <h3 style="color: #ef5350">Chi sono?</h1>
+            </div>
+            <div class="TextDescribe">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis exercitationem velit distinctio eius facere nostrum deserunt recusandae, eveniet laudantium quis sunt neque mollitia iusto, consequuntur tempora, porro rerum asperiores commodi!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis, ab voluptatem totam corporis inventore qui vitae temporibus repellendus similique quaerat consequatur enim nostrum eos quo explicabo voluptatibus nihil! Nobis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus amet voluptate dolorem temporibus minus rerum, tempora ad error quibusdam! Quo dolore dolores ea ullam molestiae. Quisquam animi libero vel id.
+            </div>
+            <div class="Linea">
+
+            </div>
+            <div id="structure" class="section scrollspy">
+                <h3 style="color: #ef5350">Portfolio</h1>
+            </div>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="image/pirate-ship-minimal-design-orange.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am
+                                convenient because I require little markup to use effectively.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="image/pirate-ship-minimal-design-orange.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am
+                                convenient because I require little markup to use effectively.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="image/pirate-ship-minimal-design-orange.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am
+                                convenient because I require little markup to use effectively.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="image/pirate-ship-minimal-design-orange.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am
+                                convenient because I require little markup to use effectively.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="image/pirate-ship-minimal-design-orange.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am
+                                convenient because I require little markup to use effectively.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="image/pirate-ship-minimal-design-orange.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am
+                                convenient because I require little markup to use effectively.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
